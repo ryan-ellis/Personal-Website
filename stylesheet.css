@@ -1,13 +1,23 @@
 body { 
-    font-family: 'Nunito', sans-serif;
-	  margin-left: auto;
+	 margin-left: auto;
     margin-right: auto;
     width: 40em
-    background-color: #3f51b5;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+li {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  font-family: 'Nunito', sans-serif;
 }
 
 .my3rdNewStyle {
-   font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
    font-weight: bold;
    font-size: 12pt;
    color: #FF0000;
