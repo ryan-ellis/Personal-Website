@@ -1,8 +1,9 @@
 body { 
-  font-family: 'Nunito', sans-serif;
-	 margin-left: auto;
+    font-family: 'Nunito', sans-serif;
+	  margin-left: auto;
     margin-right: auto;
     width: 40em
+    background-color: #3f51b5;
 }
 
 .my3rdNewStyle {
