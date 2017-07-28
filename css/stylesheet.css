@@ -1,15 +1,13 @@
-
-
 body {
 	max-width: 800px;
 	padding-top: 7.5%;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	margin: auto;
+	font-weight: 300;
+	margin: 0 auto;
 }
 
 h1 {
-	font-weight: 300;
 	font-size: 350%;
 	line-height: 0%;	
 }
