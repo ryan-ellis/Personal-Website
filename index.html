@@ -7,25 +7,32 @@
     <title>Ryan Ellis</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
   </head>
   <body>
 		<div class="container">
 			<div class="row top-buffer">
-				<img src="images/profile.jpg" alt="a picture of myself" class="center-block img-responsive img-circle">
-				<div class="text-center">
-					<h1 class="welcome">Ryan Ellis</h1>
-	        <h3 class="umd">University of Maryland</h3>
-	        <p>ryanpatrickellis@gmail.com</p>
-					<ul class="list-inline">
-	            <li ><a href="https://www.linkedin.com/in/ryanpatrickellis/" class="Linkedin">Linkedin</a></li>
-	            <li ><a href="https://github.com/ryan-ellis" class="GitHub">GitHub</a></li>
-	            <li ><a href="https://www.quora.com/profile/Ryan-Ellis-25" class="Quora">Quora</a></li>
-	        </ul>
-				</div>
+          <div class="col-xs-12">
+            <img src="images/profile.jpg" alt="a picture of myself" class="center-block img-responsive img-circle profile animated fadeInDown">
+    				<div class="text-center animated slideInUp">
+    					<h1 class="welcome">Ryan Ellis</h1>
+    	        <h3 class="umd">University of Maryland</h3>
+    	        <p>ryanpatrickellis@gmail.com</p>
+    					<ul class="list-inline">
+    	            <li ><a href="https://www.linkedin.com/in/ryanpatrickellis/" class="Linkedin">Linkedin</a></li>
+    	            <li ><a href="https://github.com/ryan-ellis" class="GitHub">GitHub</a></li>
+    	            <li ><a href="https://www.quora.com/profile/Ryan-Ellis-25" class="Quora">Quora</a></li>
+    	        </ul>
+    				</div>
+          </div>
 			</div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("profile").addClass("animated bounce");
+      });
+    </script>
   </body>
 </html>
