@@ -28,6 +28,23 @@ section,
 summary {
   display: block;
 }
+.author{
+  padding-top: 0px;
+  line-height: 25%;
+}
+.review-style {
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.25em;
+}
+.readingEntries {
+  padding-top: 10px;
+  font-size: 24pt;
+}
+.white-bar{
+  background-color: #f7f7f7;
+}
 .welcome {
   padding-top: 10px;
   font-weight: 300;
