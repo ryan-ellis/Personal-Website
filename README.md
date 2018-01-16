@@ -1,3 +1,3 @@
 # Personal-Website
 
-[ryanellis.io](https://ryanellis.io)
+[ryanellis.io](http://ryanellis.io)
